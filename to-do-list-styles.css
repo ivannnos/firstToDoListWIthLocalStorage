@@ -1,0 +1,46 @@
+.todo-container h1{
+    font-size: 1rem;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.todo-list{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.Todo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    color:#fff;
+}
+.Todo li{
+    width: 35%;
+    word-break: break-word;
+}
+.Todo button{
+    color:var(--light);
+    font-size: 1.125rem;
+}
+
+.delete, .finished, .unfinished{
+    justify-content: flex-end;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}
+
+.finished-task {
+    background-color: rgb(74, 177, 74);
+}
+
+.unfinished-task {
+    background-color: var(--darkest);
+}
+
